@@ -1,0 +1,62 @@
+@media only screen and (max-width: 2000px) {
+    /*nav area*/
+    .logo {
+        margin: 0 0 0 280px;
+    }
+    .cart-area {
+        margin: 0 300px 0 0;
+    }
+    .second-product-area {
+        margin: 100px 0 0 0;
+    }
+    .second-product-grid {
+        margin: auto;
+        max-width: 1200px;
+    }
+    .third-product-area {
+        margin: 100px 0 0 0;
+    }
+    /*post area*/
+    .post-head h2 {
+        margin: 30px 0 20px 350px;
+    }
+    /*about area*/
+    .about-area {
+        margin: 150px 0 0 250px;
+    }
+    .about-head {
+        margin: 100px 0 0 20px;
+    }
+    /*shop area*/
+    .shop {
+        margin: 0 0 0 100px;
+        gap: 90px;
+    }
+    .shop-head-info {
+        margin: 0 0 0px -120px;
+    }
+    .shop-product {
+        gap: 10px;
+        margin: 0 0 0 200px;
+        width: 1000px;
+    }
+    .archives {
+        margin: 0 -70px;
+    }
+    .categories {
+        margin: 0 -70px;
+    }
+    .meta {
+        position: relative;
+        right: 65px;
+    }
+    .foot-info-1 {
+        margin: 0 0 0 280px;
+    }
+    .foot-info-3 {
+        margin: 0 250px 0 0;
+    }
+    .foot-area {
+        padding: 50px 0 100px 0;
+    }
+}
