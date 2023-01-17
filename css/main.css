@@ -237,8 +237,57 @@ cursor: pointer;
   }
 
   /*order area*/
+
+
   .order-head{
     text-align: center;
     width: 800px;
   }
-  
+  .order-info{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+  }
+  .browser-body{
+    width: 580px;
+    height: 80px;
+    background-color: var(--white);
+    padding: 15px 15px 15px 15px;
+  }
+  .inner-browser{
+    display: flex;
+    width: 580px;
+    height: 80px;
+    background-color: #8c8c92;
+  justify-content: space-around;
+  }
+ 
+  /*right side links*/
+ 
+  .order-links{
+    width: 250px;
+    height: 285px;
+    background-color: var(--white);
+  }
+  .order-links ul{
+    padding: 10px;
+    line-height: 30px;
+  }
+  .order-links li {
+    text-decoration: underline;
+    line-height: 45px;
+  }
+  .order-links a{
+  color: var(--black);
+  }
+  .order-links ul hr{
+    
+  width: 108%;
+  margin:  0 0 0 -10px;
+  }
+  .order-links li:hover{
+    background-color: var(--green-color);
+   height: 50px;
+    width: 250px;
+    margin: -10px 0 0 -10px;
+    }
