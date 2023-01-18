@@ -1,45 +1,45 @@
 /*about page*/
 
-.about-area{
+.about-area {
     margin-top: 100px;
 }
-.about-area h2{
+
+.about-area h2 {
     margin: 20px;
     font-size: 35px;
 }
 
-.about{
+.about {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
 }
 
-.about-info{
+.about-info {
     width: auto;
     height: auto;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     box-shadow: 5px 10px 15px rgba(225, 225, 225, .2);
 }
-.about-info h2{
-   
+
+.about-info h2 {
     color: #FF005E;
     margin: 20px;
     font-size: 30px;
     font-weight: 800;
-    
 }
-.about-info p{
-   
-    
+
+.about-info p {
     margin: 20px;
     font-size: 18px;
     line-height: 25px;
-    
-    
 }
+
+
 /*about sidebar*/
-.about-adds{
+
+.about-adds {
     width: 380px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -49,86 +49,97 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-
-
-.about-add-info img{
+.about-add-info img {
     width: 100px;
     margin: auto;
 }
-.about-add-info h4{
+
+.about-add-info h4 {
     font-size: 13px;
     margin: 10px;
 }
-.about-add-info h4:hover{
-   color: var(--green-color);
+
+.about-add-info h4:hover {
+    color: var(--green-color);
 }
-.about-add-info button{
+
+.about-add-info button {
     padding: 20px;
     margin: 10px;
     border-radius: 30px;
     background-color: #32373C;
     color: var(--white);
 }
-.about-add-info button:hover{
+
+.about-add-info button:hover {
     color: var(--green-color);
-   /*about product search*/ 
+    /*about product search*/
 }
-.about-search{
+
+.about-search {
     background-color: var(--white);
     width: 360px;
     height: 45px;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
     padding: 8px;
     margin: -60px 0 70px 10px;
 }
-.abt-search{
+
+.abt-search {
     padding: 13px;
-    margin:  0 0 0 10px;
+    margin: 0 0 0 10px;
     width: 180px;
     border: 1px solid rgba(225, 225, 225, .5);
     border-radius: 7px 0 0 7px;
 }
 
-.about-search button{
-   padding: 15px;
-   width: 130px;
-   background-color: var(--green-color);
-   color: var(--white);
-   margin: 0 0px 0 -10px;
-   border-radius: 0 7px 7px 0;
+.about-search button {
+    padding: 15px;
+    width: 130px;
+    background-color: var(--green-color);
+    color: var(--white);
+    margin: 0 0px 0 -10px;
+    border-radius: 0 7px 7px 0;
 }
 
-.about-search button:hover{
-  background-color: #32373C;
+.about-search button:hover {
+    background-color: #32373C;
 }
+
+
 /*Shop area*/
-.shop{
+
+.shop {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 50px;
-
 }
-.shop-product{
+
+.shop-product {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 100%;
     margin: 20px;
 }
-.shop-list-1{
+
+.shop-list-1 {
     width: 200px;
     height: 400px;
     background-color: var(--white);
     margin: 0 0 30px 0;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 5px 10px 15px rgba(0,0,0,0.1);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
 }
-.shop-head{
+
+.shop-head {
     display: flex;
-   justify-content: space-around;
-   margin: 50px;
+    justify-content: space-around;
+    margin: 50px;
 }
-#shop-dropdown{
+
+#shop-dropdown {
     position: absolute;
     top: 250px;
     padding: 10px;
@@ -136,158 +147,205 @@
     border: none;
     width: 200px;
 }
-.dropdown-btn{
+
+.dropdown-btn {
     margin: 0 300px -100px 0;
 }
-.shop-head-info{
+
+.shop-head-info {
     margin: 0 0 -40px -270px;
 }
-.shop-head-info h4{
-   font-size: 25px;
+
+.shop-head-info h4 {
+    font-size: 25px;
 }
-.shop-list-1 img{
+
+.shop-list-1 img {
     width: 200px;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-
 }
-.shop-list-1 img:hover{
+
+.shop-list-1 img:hover {
     transform: scale(1.1);
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 11;
-  }
-  .shop-list-1 button{
+}
+
+.shop-list-1 button {
     padding: 15px;
     margin: 5px;
     background-color: var(--green-color);
     color: var(--white);
-border-radius: 5px;
-width: 120px;
-cursor: pointer;
-  }
-  .shop-list-1 button:hover{
-   background-color: #32373C;
-  }
-  .shop-list-1 h4, p {
+    border-radius: 5px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.shop-list-1 button:hover {
+    background-color: #32373C;
+}
+
+.shop-list-1 h4,
+p {
     margin: 10px;
     cursor: pointer;
-  }
-  .shop-list-1 h4:hover {
-   color: var(--green-color);
-  }
-  .pro-cat:hover{
+}
+
+.shop-list-1 h4:hover {
     color: var(--green-color);
-  }
-  .pro-cat{
+}
+
+.pro-cat:hover {
+    color: var(--green-color);
+}
+
+.pro-cat {
     color: #8c8c92;
-    
-  }
-  /*shop sidebar*/
-  .archives{
+}
+
+
+/*shop sidebar*/
+
+.archives {
     width: 350px;
     height: 60px;
     background-color: var(--white);
     position: absolute;
     top: 220PX;
     padding: 10PX;
-  }
-  .archives h2, p{
-   margin: 0 0 10px 10px;
-  }
-  .archives p:hover{
-   color: var(--green-color);
-  }
+}
 
-  .categories{
-    
-        width: 350px;
-        height: 60px;
-        background-color: var(--white);
-        margin: 40px 0 0 0;
-        padding: 10PX;
-  }
-  .categories h2, p{
-    
+.archives h2,
+p {
     margin: 0 0 10px 10px;
-  }
-  .categories p:hover{
-    color: var(--green-color);
-  }
+}
 
-  .meta{
+.archives p:hover {
+    color: var(--green-color);
+}
+
+.categories {
+    width: 350px;
+    height: 60px;
+    background-color: var(--white);
+    margin: 40px 0 0 0;
+    padding: 10PX;
+}
+
+.categories h2,
+p {
+    margin: 0 0 10px 10px;
+}
+
+.categories p:hover {
+    color: var(--green-color);
+}
+
+.meta {
     width: 350px;
     height: 180px;
     background-color: var(--white);
     margin: 40px 0 0 0;
     padding: 10PX;
-  }
-  .meta h2{
+}
+
+.meta h2 {
     margin: 0 0 10px 10px;
-  }
-  .meta ul{
+}
+
+.meta ul {
     margin: 0 0 10px -25px;
-  }
-  .meta a{
+}
+
+.meta a {
     line-height: 30px;
     color: var(--black);
-  }
-  .meta a:hover{
+}
+
+.meta a:hover {
     color: var(--green-color);
-  }
-
-  /*order area*/
+}
 
 
-  .order-head{
+/*order area*/
+
+.order-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.order-area {
+    margin: 150px 0 0 0;
+}
+
+.login-chart {
+    width: 480px;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.order-head {
     text-align: center;
-    width: 800px;
-  }
-  .order-info{
-    display: flex;
-    gap: 10px;
-    margin: 0;
-  }
-  .browser-body{
-    width: 580px;
-    height: 80px;
-    background-color: var(--white);
-    padding: 15px 15px 15px 15px;
-  }
-  .inner-browser{
-    display: flex;
-    width: 580px;
-    height: 80px;
-    background-color: #8c8c92;
-  justify-content: space-around;
-  }
- 
-  /*right side links*/
- 
-  .order-links{
-    width: 250px;
-    height: 285px;
-    background-color: var(--white);
-  }
-  .order-links ul{
+}
+
+.order-head h3 {
+    font-size: 35px;
+}
+
+.order-head h4 {
+    font-size: 35px;
+}
+
+.login-chart {
+    margin: auto;
+}
+
+.login-form {
+    display: block;
+    margin: 20px;
+}
+
+.login-form p {
+    font-size: 18px;
+    margin: 10px 0 -12px 0;
+}
+
+.login-form span {
+    color: #FF005E;
+}
+
+#username,
+#password {
     padding: 10px;
-    line-height: 30px;
-  }
-  .order-links li {
-    text-decoration: underline;
-    line-height: 45px;
-  }
-  .order-links a{
-  color: var(--black);
-  }
-  .order-links ul hr{
-    
-  width: 108%;
-  margin:  0 0 0 -10px;
-  }
-  .order-links li:hover{
+    width: 400px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.check-area {
+    margin: 20px 0 0 0;
+    font-size: 18px;
+}
+
+.login-form button {
+    margin: 20px 0 20px 0;
+    padding: 12px;
     background-color: var(--green-color);
-   height: 50px;
-    width: 250px;
-    margin: -10px 0 0 -10px;
-    }
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form a {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+#password::placeholder {
+    float: right;
+}
+
+
+/*contact area*/
