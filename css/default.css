@@ -1,28 +1,35 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #DAEAE8;
     contain: content;
     align-items: center;
 }
-:root{
-    --white:#fff;
-    --black:#000;
-    --body:#DAEAE8;
-    --magenta-color:#C30B3E;
-    --yello-color:#EC9A03;
-    --green-color:#689D19;
+
+body {
+    scroll-behavior: smooth;
 }
-li{
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --body: #DAEAE8;
+    --magenta-color: #C30B3E;
+    --yello-color: #EC9A03;
+    --green-color: #689D19;
+}
+
+li {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
-button{
+
+button {
     background-color: none;
     border: none;
 }
-a{
+
+a {
     text-decoration: none;
 }

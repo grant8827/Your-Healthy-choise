@@ -810,6 +810,37 @@
 }
 
 
+/*to top*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.to-top {
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--green-color);
+    position: sticky;
+    right: 20px;
+    bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    float: right;
+    z-index: 99;
+}
+
+.to-top a {
+    font-size: 30px;
+    color: var(--white);
+}
+
+.to-top:hover {
+    background-color: #111111;
+}
+
+
 /*footer area*/
 
 footer {
