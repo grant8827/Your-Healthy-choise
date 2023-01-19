@@ -1,4 +1,4 @@
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1920px) {
     /*nav area*/
     .logo {
         margin: 0 0 0 280px;
@@ -60,3 +60,152 @@
         padding: 50px 0 100px 0;
     }
 }
+
+@media only screen and (max-width: 1366px) {
+    /*home page*/
+    .nav-top {
+        justify-content: space-around;
+    }
+    .nav-list {
+        margin: inherit;
+    }
+    .top-contact {
+        margin: inherit;
+    }
+    .logo,
+    .cart-area {
+        margin: auto;
+    }
+    .product-head h2 {
+        position: relative;
+        left: -120px;
+    }
+    .product-head button {
+        position: relative;
+        right: -120px;
+    }
+    /*about page*/
+    .about-adds {
+        width: 350px;
+        padding: 15px;
+    }
+    .about-area {
+        position: relative;
+        left: -180px;
+    }
+    .about-area .about-head {
+        position: relative;
+        left: -10px;
+    }
+    /*shop page*/
+    .shop {
+        margin: 0;
+    }
+    .shop-product {
+        margin: 0 0 0 30px;
+        width: 900px;
+    }
+    .shop-head-info {
+        position: relative;
+        left: -100px;
+    }
+    /*contact page*/
+    .contact-info {
+        width: 750px;
+    }
+    .con-info {
+        position: relative;
+        left: 20px;
+    }
+    .con-message {
+        position: relative;
+        right: -50px;
+    }
+    footer {
+        margin-bottom: -10px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    /*home page*/
+    .nav-link {
+        display: none;
+    }
+    .menu-bars {
+        display: block;
+    }
+    .menu-bars i {
+        font-size: 50px;
+    }
+    /*search area*/
+    .search-area {
+        height: auto;
+        display: block;
+        padding: 20px;
+        margin: auto;
+    }
+    .dropdown input {
+        padding: auto;
+        width: 830px;
+        margin: auto;
+    }
+    .dropdown h3 {
+        margin: 0 0 0 90px;
+        padding: 20px 0 0 0;
+    }
+    .search-area .fa-paper-plane {
+        position: absolute;
+        margin-top: 22px;
+        left: 230px;
+    }
+    .search-area .fa-chevron-down {
+        position: absolute;
+        margin-top: 20px;
+        right: 50px;
+    }
+    .search-area .screach {
+        margin-top: 20px;
+    }
+    .cat-links {
+        position: absolute;
+        z-index: 1;
+    }
+    .head-section {
+        margin: 10px;
+    }
+    /*product area*/
+    .products {
+        width: 750px;
+    }
+    .product-head {
+        width: 100px;
+        margin: auto;
+    }
+    /*bonner area*/
+    .bonner {
+        width: 950px;
+    }
+    .banner-info {
+        margin: 10px;
+        width: 880px;
+    }
+    /*advertisement area*/
+    .advert-area {
+        width: 800px;
+    }
+    .add-info {
+        width: 350px;
+    }
+    .add-info p {
+        width: 350px;
+    }
+    .add-img {
+        width: 350px;
+    }
+    .add-img img {
+        width: 320px;
+        margin: 40px 0 0 13px;
+    }
+}
+
+@media only screen and (max-width: 414px) {}

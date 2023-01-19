@@ -69,6 +69,10 @@
     transform: scale(1);
 }
 
+.menu-bars {
+    display: none;
+}
+
 .cart-area {
     margin-right: 20px;
 }
