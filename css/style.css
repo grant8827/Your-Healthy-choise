@@ -17,17 +17,19 @@
     color: var(--white);
 }
 
-.contact {
+.top-contact {
     display: flex;
     margin-right: 20px;
+    margin: 3px 0 0 0;
 }
 
-.contact p {
+.top-contact p {
     padding-right: 10px;
     color: var(--white);
+    margin: 10px;
 }
 
-.contact i {
+.top-contact i {
     padding-right: 5px;
     font-size: 13px;
 }
