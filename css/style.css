@@ -72,7 +72,12 @@
 .menu-bars {
     display: none;
 }
-
+.close {
+    display: none;
+}
+.nav-link hr{
+    display: none;
+}
 .cart-area {
     margin-right: 20px;
 }

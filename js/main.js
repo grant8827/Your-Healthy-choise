@@ -8,8 +8,21 @@ function myFunction() {
 }
 
 $(document).ready(function() {
+    $(".menu-bars").click(function() {
+        $(".nav-link").toggle("slow");
+        $(".menu-bars").hide();
+        $(".close").show();
+        $(".close").click(function(){
+            $(".nav-link").hide("slow");
+            $(".menu-bars").show();
+            $(".close").hide();
+        })
+
+    })
+})
+$(document).ready(function() {
     $(".fa-chevron-down").click(function() {
-        $(".cat-links").toggle();
+        $(".cat-links").slideToggle();
     })
 })
 
