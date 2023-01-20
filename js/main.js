@@ -1,12 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("toggle");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-
 $(document).ready(function() {
     $(".menu-bars").click(function() {
         $(".responsive-nav").toggle("slow");
@@ -20,12 +11,24 @@ $(document).ready(function() {
 
     });
 });
-
+//toggle category button
 $(document).ready(function() {
     $(".fa-chevron-down").click(function() {
         $(".cat-links").slideToggle("slow");
-        $(".fa-chevron-down").flip({ reverse: true });
     });
+
+});
+
+let btn = document.querySelector('.btn-icon');
+let fa = document.querySelector('.fa-chevron-down');
+
+btn.addEventListener('click', function() {
+
+    if (fa.style.transform === '') {
+        fa.style.transform = 'rotate(180deg)'
+    } else {
+        fa.style.transform = ''
+    }
 
 });
 

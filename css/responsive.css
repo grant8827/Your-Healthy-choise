@@ -189,6 +189,9 @@
         margin: 0 0 0 90px;
         padding: 20px 0 0 0;
     }
+    .cat-links {
+        margin-top: -110px;
+    }
     .search-area .fa-paper-plane {
         position: absolute;
         margin-top: 22px;
@@ -249,6 +252,9 @@
     .post-info-2 h3 {
         font-size: 13px;
     }
+    .post-head h2 {
+        margin: 50px 0 20px 55px;
+    }
     /*footer area*/
     .foot-info-1 {
         width: 250px;
@@ -271,7 +277,7 @@
     /*about page*/
     .about {
         display: block;
-        margin: 0 0 0 -20px;
+        margin: 0 0 -200px -20px;
     }
     .about-adds {
         margin: auto;
@@ -289,6 +295,93 @@
     }
     .abt-search {
         width: 620px;
+    }
+    .about-search.about-sh-bar {
+        margin: auto;
+        margin-top: 200px;
+    }
+    .about-adds.about-2 {
+        margin-bottom: 250px;
+    }
+    /*shop page*/
+    .shop {
+        display: block;
+    }
+    .shop-head-info {
+        position: relative;
+        left: 0px;
+    }
+    .shop-head-info {
+        float: left;
+        margin-left: -250px;
+    }
+    .dropdown-btn {
+        margin: initial;
+        float: left;
+        margin-right: -180px;
+    }
+    .shop-product {
+        margin: 0 0 0 10px;
+        width: auto;
+    }
+    .archives {
+        width: 350px;
+        height: 60px;
+        background-color: var(--white);
+        position: static;
+        bottom: 50px;
+    }
+    .shop-sidebar {
+        width: 800px;
+        margin: auto;
+        padding-left: 80px;
+    }
+    .archives {
+        margin: 50px 0 10px -50px;
+        width: 100%;
+    }
+    .categories {
+        margin: 50px 0 10px -50px;
+        width: 100%;
+    }
+    .meta {
+        margin: 50px 0 10px 10px;
+        width: 100%;
+    }
+    .order-area {
+        display: block;
+    }
+    /*order area*/
+    .about-search {
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    .login-chart {
+        margin-bottom: -380px;
+    }
+    /*contact area*/
+    .contact-page {
+        display: block;
+    }
+    .contact-info {
+        margin: 0 30px;
+    }
+    .con-head h3 {
+        margin: 0 0 20px -220px;
+    }
+    .contact-side-bar {
+        position: relative;
+        top: 200px;
+        margin: 0 0 250px 0;
+    }
+    .about-search {
+        position: relative;
+        bottom: 100px;
+        margin: 720px 0 0 50px;
+    }
+    .about-adds {
+        margin-top: -50px;
     }
 }
 
