@@ -97,7 +97,7 @@
         position: relative;
         left: -10px;
     }
-    .about-info{
+    .about-info {
         width: 800px;
     }
     /*shop page*/
@@ -136,20 +136,28 @@
     }
     .responsive-nav {
         position: absolute;
-        width: 850px;
-        height: 300px;
+        width: 800px;
+        height: 400px;
         background-color: var(--white);
         top: 120px;
         z-index: 11;
-        text-decoration: underline;
-        text-underline-offset: 20px ;
-      
-        
+        margin: 20px 0 0 20px;
+        overflow: hidden;
+        padding: 10px;
     }
-    .close{
+    .responsive-nav hr {
+        display: block;
+        width: 850px;
+        margin: 0 0 0 -40px;
+        padding: 10px;
+    }
+    .nav-link a:hover {
+        text-decoration: none;
+    }
+    .close {
         font-size: 35px;
     }
-    .nav-link li{
+    .nav-link li {
         padding: 10px;
     }
     .menu-bars {
@@ -158,10 +166,10 @@
     .menu-bars i {
         font-size: 50px;
     }
-    .logo{
+    .logo {
         margin: inherit;
     }
-    .cart-area{
+    .cart-area {
         margin: inherit;
         padding-right: 30px;
     }
@@ -235,30 +243,52 @@
         margin: 40px 0 0 13px;
     }
     /*post area*/
-    .post-products{
+    .post-products {
         width: 800px;
     }
-    .post-info-2 h3{
+    .post-info-2 h3 {
         font-size: 13px;
     }
     /*footer area*/
-    .foot-info-1{
+    .foot-info-1 {
         width: 250px;
     }
-    .foot-info-1{
+    .foot-info-1 {
         width: 250px;
     }
-    .foot-info-1 p{
+    .foot-info-1 p {
         width: 250px;
     }
-    .foot-info-1 button{
+    .foot-info-1 button {
         margin-top: 20px;
     }
-    .foot-info-3{
+    .foot-info-3 {
         width: 250px;
     }
-    .foot-info-3 p{
+    .foot-info-3 p {
         width: 250px;
+    }
+    /*about page*/
+    .about {
+        display: block;
+        margin: 0 0 0 -20px;
+    }
+    .about-adds {
+        margin: auto;
+        width: 780px;
+        height: 1200px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .about-add-info img {
+        width: 250px;
+    }
+    .about-search {
+        margin: 50px 0 20px 0;
+        width: 790px;
+    }
+    .abt-search {
+        width: 620px;
     }
 }
 

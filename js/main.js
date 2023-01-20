@@ -9,22 +9,25 @@ function myFunction() {
 
 $(document).ready(function() {
     $(".menu-bars").click(function() {
-        $(".nav-link").toggle("slow");
+        $(".responsive-nav").toggle("slow");
         $(".menu-bars").hide();
         $(".close").show();
-        $(".close").click(function(){
-            $(".nav-link").hide("slow");
+        $(".close").click(function() {
+            $(".responsive-nav").hide("slow");
             $(".menu-bars").show();
             $(".close").hide();
-        })
+        });
 
-    })
-})
+    });
+});
+
 $(document).ready(function() {
     $(".fa-chevron-down").click(function() {
-        $(".cat-links").slideToggle();
-    })
-})
+        $(".cat-links").slideToggle("slow");
+        $(".fa-chevron-down").flip({ reverse: true });
+    });
+
+});
 
 
 /*slider*/
