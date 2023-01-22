@@ -114,5 +114,5 @@ function submit_comment(){
 }
 
 $(document).ready (function(){
-    
+    $()
 })
