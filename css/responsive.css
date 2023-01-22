@@ -180,10 +180,17 @@
         padding: 20px;
         margin: auto;
     }
+    .setext{
+        padding-right: 380px;
+        margin: 0 0 0 -40px;
+        width: auto;
+    }
     .dropdown input {
         padding: auto;
         width: 830px;
         margin: auto;
+        width: -webkit-fill-available;
+        margin-right: 50px;
     }
     .dropdown h3 {
         margin: 0 0 0 90px;
@@ -214,7 +221,7 @@
     }
     /*product area*/
     .products {
-        width: 750px;
+        width: auto;
     }
     .product-head {
         width: 100px;

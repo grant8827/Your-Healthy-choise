@@ -419,4 +419,5 @@ p {
     border-radius: 5px;
     margin: 20px 0 0 0;
     color: var(--white);
+    cursor: pointer;
 }
