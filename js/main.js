@@ -1,3 +1,4 @@
+//menu bars toggle
 $(document).ready(function() {
     $(".menu-bars").click(function() {
         $(".responsive-nav").toggle("slow");
@@ -62,7 +63,7 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
-//top top
+//to top button
 $(document).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
@@ -75,3 +76,5 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: 0 }, 600);
     });
 });
+
+function()

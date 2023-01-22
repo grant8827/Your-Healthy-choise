@@ -84,6 +84,32 @@
         position: relative;
         right: -120px;
     }
+    .head-info p {
+        width: -webkit-fill-available;
+    }
+    .head-info h2 {
+        width: -webkit-fill-available;
+    }
+    .products {
+        width: -webkit-fill-available;
+        margin: 0 100px;
+        gap: 20px;
+    }
+    .head-section {
+        gap: 20px;
+    }
+    .banner {
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        padding: 0 0 150px 0;
+    }
+    .input-area {
+        display: contents;
+    }
+    .post-products {
+        width: -webkit-fill-available;
+        flex-flow: wrap;
+    }
     /*about page*/
     .about-adds {
         width: 350px;
@@ -99,6 +125,10 @@
     }
     .about-info {
         width: 800px;
+    }
+    .banner-info {
+        margin: 0 100px;
+        width: -webkit-fill-available;
     }
     /*shop page*/
     .shop {
