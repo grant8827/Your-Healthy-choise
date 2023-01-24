@@ -344,9 +344,24 @@ p {
     text-decoration: underline;
 }
 
-#password::placeholder {
+.fa-eye {
     float: right;
+    color: #000;
+    position: relative;
+    right: 25px;
+    top: 10px;
+    cursor: pointer;
 }
+
+
+/*.fa-eye-slash {
+    float: right;
+    color: #000;
+    position: relative;
+    right: 25px;
+    top: -25px;
+    display: non;
+}*/
 
 
 /*contact area*/
@@ -419,4 +434,5 @@ p {
     border-radius: 5px;
     margin: 20px 0 0 0;
     color: var(--white);
+    cursor: pointer;
 }

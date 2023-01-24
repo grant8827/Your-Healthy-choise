@@ -12,6 +12,7 @@ $(document).ready(function() {
 
     });
 });
+
 //toggle category button
 $(document).ready(function() {
     $(".fa-chevron-down").click(function() {
@@ -77,4 +78,40 @@ $(document).ready(function() {
     });
 });
 
-function()
+
+/*Login form*/
+const login = document.getElementById("login-form")
+const button = document.getElementById("btn").value;
+
+button.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+});
+
+//password show/hide icon
+function myFunction() {
+    let x = document.getElementById("password");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+/*contact form*/
+function sendMail(str) {
+    let link = "mailto:grant8827@yahoo.com" + escape("This is my subject") + "&body=" + escape(str);
+    location.href = link;
+}
+
+function submit_comment() {
+    let name = document.forms["contact_form"]["Name"].value;
+    let Email = document.forms["contact_form"]["Email"].value;
+    let Subject = document.form["contact_form"]["Subject"].value;
+    let Message = document.form["contact_form"]["Messagr"].value;
+    if ((name != "") && (Email != "") && (Subject != "") && (Message != "")) {
+        sendMail("message incomplete")
+    }
+}

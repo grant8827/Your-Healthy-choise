@@ -65,21 +65,23 @@
                         <p><i class="fas fa-phone"></i> 321-345-7796</p>
                         <p><i class="fa fa-envelope" aria-hidden="true"></i> admin@yourhealthychoicellc.com</p>
                     </div>
+                    <form class="con-form" name="contact_form">
                     <div class="con-message">
                         <label for="name">Your name</label><br>
-                        <input id="con-input" type="text" name="name"><br>
+                        <input id="con-input" type="text" name="name" required><br>
 
                         <label for="email">Your email</label><br>
-                        <input id="con-input" type="text" name="email"><br>
+                        <input id="con-input" type="text" name="email" required><br>
 
                         <label for="subject">Subject</label><br>
-                        <input id="con-input" type="text" name="subject"><br>
+                        <input id="con-input" type="text" name="subject" required><br>
 
                         <label for="message">Your message (optional)</label><br>
-                        <textarea id="con-mas" name="message" rows="13" cols="50"></textarea><br>
+                        <textarea id="con-mas" required name="message" rows="13" cols="50"></textarea><br>
 
                         <button type="submit">Submit</button>
                     </div>
+                </form>
 
                 </div>
             </div>
