@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
 
 });
-
+//dropdown button icon rotation
 let btn = document.querySelector('.btn-icon');
 let fa = document.querySelector('.fa-chevron-down');
 
