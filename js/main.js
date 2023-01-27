@@ -78,6 +78,7 @@ $(document).ready(function() {
     });
 });
 
+<<<<<<< HEAD
 
 /*Login form*/
 const login = document.getElementById("login-form")
@@ -107,11 +108,51 @@ function sendMail(str) {
 }
 
 function submit_comment() {
+=======
+/*Login form*/ 
+let submit = document.getElementById("btn")
+    let uname = document.getElementById("username").value;
+    let pwd =document.getElementById("password").value;
+
+    submit.addEventListener('click', function(){
+    if("uname == '' ")
+    {alert("Please enter user name")}
+    else if("pwd == ''")
+    {alert("enter the password")}
+
+    else('you login successfully')
+
+});
+
+
+
+
+
+
+/*contact form*/ 
+function sendMail(str){
+    let link = "mailto:grant8827@yahoo.com" + escape("This is my subject") + "&body=" + escape(str);
+location.href = link;
+}
+
+function submit_comment(){
+>>>>>>> b1af1190e77ac34eb273ab177a191654e06afebc
     let name = document.forms["contact_form"]["Name"].value;
     let Email = document.forms["contact_form"]["Email"].value;
     let Subject = document.form["contact_form"]["Subject"].value;
     let Message = document.form["contact_form"]["Messagr"].value;
+<<<<<<< HEAD
     if ((name != "") && (Email != "") && (Subject != "") && (Message != "")) {
         sendMail("message incomplete")
     }
 }
+=======
+    if((name !="") && (Email !="") && (Subject !="") && (Message !="")) {
+        sendMail ("Email send")
+    }
+}
+
+$(document).ready (function(){
+    $()
+})
+>>>>>>> b1af1190e77ac34eb273ab177a191654e06afebc
