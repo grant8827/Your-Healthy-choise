@@ -166,7 +166,7 @@
 
 /*search*/
 
-.setext {
+.se-text {
     padding: 23px;
     width: 500px;
     border: none;
@@ -184,13 +184,19 @@
     border-right: none;
 }
 
+.category-area {
+    display: flex;
+    width: fit-content;
+}
+
 .fa-magnifying-glass {
     background-color: var(--green-color);
     padding: 23px;
     position: relative;
-    margin: 0 0 0 -56px;
+    margin: -3px 0 0 -58px;
     top: 2px;
     border-radius: 0 5px 5px 0;
+    color: var(--white);
 }
 
 .cat-btn-info h3 {
