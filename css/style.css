@@ -166,15 +166,22 @@
 
 /*search*/
 
+.search-main {
+    display: flex;
+    width: -webkit-fill-available;
+    margin: 20px;
+}
+
 .se-text {
     padding: 23px;
-    width: 500px;
+    width: -webkit-fill-available;
     border: none;
     border-radius: 7px 0 0 7px;
+    margin: auto;
 }
 
 .scat {
-    width: 250px;
+    width: 300px;
     padding: 23px;
     position: relative;
     margin: 0 0 0 -30px;
@@ -197,6 +204,7 @@
     top: 2px;
     border-radius: 0 5px 5px 0;
     color: var(--white);
+    width: 100px;
 }
 
 .cat-btn-info h3 {
@@ -468,7 +476,7 @@
 
 .banner-info h2 {
     font-size: 45px;
-    color: var(--yello-color);
+    color: var(--yellow-color);
     padding: 10px;
 }
 
@@ -846,7 +854,7 @@ html {
     background-color: var(--green-color);
     position: sticky;
     right: 20px;
-    bottom: 40px;
+    bottom: -10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
@@ -978,11 +986,11 @@ footer {
 }
 
 .foot-bottom {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-size: 18px;
     color: var(--white);
-    margin: 10px;
+    margin: 0;
 }
 
 footer hr {
