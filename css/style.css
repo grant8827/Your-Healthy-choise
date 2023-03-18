@@ -181,7 +181,7 @@
 }
 
 .scat {
-    width: 300px;
+    width: auto;
     padding: 23px;
     position: relative;
     margin: 0 0 0 -30px;
@@ -196,8 +196,7 @@
     width: fit-content;
 }
 
-.fa-magnifying-glass {
-    background-color: var(--green-color);
+.fa-magnifying-glass { 
     padding: 23px;
     position: relative;
     margin: -3px 0 0 -58px;
@@ -205,6 +204,9 @@
     border-radius: 0 5px 5px 0;
     color: var(--white);
     width: 100px;
+}
+.search button{
+    background-color: var(--green-color);
 }
 
 .cat-btn-info h3 {
@@ -394,16 +396,17 @@
 
 .p-list-1 {
     display: flex;
-    width: 350px;
     height: 150px;
     background-color: #fff;
     margin: 30px 0 0 0px;
     border-radius: 5px;
     overflow: hidden;
+    width: min-content;
+    padding: 10px;
 }
 
 .p-list-1 h3 {
-    font-size: 16px;
+    font-size: 12px;
     margin: 1px 0 0 20px;
     font-weight: 800;
 }
@@ -476,7 +479,7 @@
 
 .banner-info h2 {
     font-size: 45px;
-    color: var(--yellow-color);
+    color: #fff;
     padding: 10px;
 }
 
@@ -495,29 +498,30 @@
 
 .advert-area {
     display: flex;
-    width: 1200px;
+    width: inherit;
     height: 300px;
-    margin: auto;
     gap: 10px;
+    margin: 10px;
+    justify-content: center;
 }
 
 .add-info {
     border: 2px solid var(--magenta-color);
-    padding: 30px;
-    width: 600px;
+    padding: 10px;
+    width: auto;
     text-align: center;
 }
 
 .add-info p {
     text-align: initial;
-    width: 550px;
+    width: 300px;
     margin: auto;
     font-size: 18px;
 }
 
 .add-info h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     margin: -5px 0 30px 0;
     color: var(--yello-color);
 }
@@ -534,13 +538,13 @@
 
 .add-img {
     border: 2px solid var(--magenta-color);
-    width: 600px;
+    width: auto;
 }
 
 .add-img img {
-    width: 400px;
+    width: auto;
     box-shadow: 5px 10px 20px #717171;
-    margin: 20px 0 0 80px;
+    margin: 20px;
 }
 
 
@@ -548,9 +552,10 @@
 
 .post-products {
     display: flex;
-    width: 1200px;
-    gap: 20px;
+    width: fit-content;
+    gap: 10px;
     margin: auto;
+    justify-content: center;
 }
 
 .post-head h2 {
@@ -562,8 +567,8 @@
 /*post 1*/
 
 .posts-1 {
-    width: 320px;
-    height: 418px;
+    width: 250px;
+    height:auto;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -574,7 +579,7 @@
 
 .post-img-1 {
     background-image: url("../assets/image/admin-ajax.png");
-    width: 100%;
+    width: auto;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -622,7 +627,7 @@
 }
 
 .bgd-img1 {
-    width: 330px;
+    width: auto;
     height: 250px;
     overflow: hidden;
 }
@@ -631,8 +636,8 @@
 /*post 2*/
 
 .posts-2 {
-    width: 320px;
-    height: 418px;
+    width: 250px;
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -643,7 +648,7 @@
 
 .post-img-2 {
     background-image: url("../assets/image/787692833665.jpg");
-    width: 300px;
+    width: auto;
     height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -691,7 +696,7 @@
 }
 
 .bgd-img2 {
-    width: 330px;
+    width: auto;
     height: 250px;
     overflow: hidden;
 }
@@ -700,8 +705,8 @@
 /*post 3*/
 
 .posts-3 {
-    width: 320px;
-    height: 418px;
+    width: 250px;
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -712,7 +717,7 @@
 
 .post-img-3 {
     background-image: url("../assets/image/Picture2.png");
-    width: 300px;
+    width:auto;
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -760,7 +765,7 @@
 }
 
 .bgd-img3 {
-    width: 330px;
+    width: auto;
     height: 250px;
     overflow: hidden;
     text-align: center;
@@ -775,8 +780,8 @@
 /*post 4*/
 
 .posts-4 {
-    width: 320px;
-    height: 418px;
+    width: 250px;
+    height: auto;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -787,7 +792,7 @@
 
 .post-img-4 {
     background-image: url("../assets/image/cropped-TEMPLATE_Featured-Image.jpg");
-    width: 100%;
+    width:auto;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -835,7 +840,7 @@
 }
 
 .bgd-img4 {
-    width: 330px;
+    width: auto;
     height: 250px;
     overflow: hidden;
 }
